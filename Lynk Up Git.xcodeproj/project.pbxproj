@@ -3,10 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57BCEF8024D770F700E567A0 /* profiledata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF5E24D770F300E567A0 /* profiledata.swift */; };
+		57BCEF8124D770F700E567A0 /* AnnotationPlacementErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF5F24D770F400E567A0 /* AnnotationPlacementErrorView.swift */; };
+		57BCEF8224D770F700E567A0 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6024D770F400E567A0 /* PrivacyPolicyView.swift */; };
+		57BCEF8324D770F700E567A0 /* CustomCallOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6124D770F400E567A0 /* CustomCallOutView.swift */; };
+		57BCEF8424D770F700E567A0 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6224D770F400E567A0 /* DataFetcher.swift */; };
+		57BCEF8524D770F700E567A0 /* SlideOverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6324D770F400E567A0 /* SlideOverCard.swift */; };
+		57BCEF8624D770F700E567A0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6424D770F400E567A0 /* LocationManager.swift */; };
+		57BCEF8724D770F700E567A0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6524D770F400E567A0 /* MapView.swift */; };
+		57BCEF8824D770F700E567A0 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6624D770F400E567A0 /* Handle.swift */; };
+		57BCEF8924D770F700E567A0 /* neon green starry sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BCEF6724D770F400E567A0 /* neon green starry sky.png */; };
+		57BCEF8A24D770F700E567A0 /* CreateEventButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6824D770F400E567A0 /* CreateEventButton.swift */; };
+		57BCEF8B24D770F700E567A0 /* MoreDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6924D770F500E567A0 /* MoreDetailsView.swift */; };
+		57BCEF8C24D770F700E567A0 /* atendeedata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6A24D770F500E567A0 /* atendeedata.swift */; };
+		57BCEF8D24D770F700E567A0 /* MailSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6B24D770F500E567A0 /* MailSender.swift */; };
+		57BCEF8E24D770F700E567A0 /* LicensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6C24D770F500E567A0 /* LicensesView.swift */; };
+		57BCEF8F24D770F700E567A0 /* Geocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6D24D770F500E567A0 /* Geocoder.swift */; };
+		57BCEF9024D770F700E567A0 /* MyEventsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6E24D770F500E567A0 /* MyEventsButton.swift */; };
+		57BCEF9224D770F700E567A0 /* MessageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7024D770F500E567A0 /* MessageButton.swift */; };
+		57BCEF9424D770F700E567A0 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7224D770F500E567A0 /* SearchResults.swift */; };
+		57BCEF9524D770F700E567A0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7324D770F600E567A0 /* SignUpView.swift */; };
+		57BCEF9724D770F700E567A0 /* TimeSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7524D770F600E567A0 /* TimeSelectorView.swift */; };
+		57BCEF9824D770F700E567A0 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7624D770F600E567A0 /* LogInView.swift */; };
+		57BCEF9924D770F700E567A0 /* EventsIAmAttendingBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7724D770F600E567A0 /* EventsIAmAttendingBtn.swift */; };
+		57BCEF9A24D770F700E567A0 /* CenterToUserButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7824D770F600E567A0 /* CenterToUserButton.swift */; };
+		57BCEF9B24D770F700E567A0 /* EventsUserCreatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7924D770F600E567A0 /* EventsUserCreatedView.swift */; };
+		57BCEF9C24D770F700E567A0 /* eventdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7A24D770F600E567A0 /* eventdata.swift */; };
+		57BCEF9D24D770F700E567A0 /* EventsUserAttendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7B24D770F600E567A0 /* EventsUserAttendingView.swift */; };
+		57BCEF9E24D770F700E567A0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7C24D770F600E567A0 /* SearchBar.swift */; };
+		57BCEF9F24D770F700E567A0 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7D24D770F600E567A0 /* SettingsButton.swift */; };
+		57BCEFA024D770F700E567A0 /* SettingsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7E24D770F700E567A0 /* SettingsPageView.swift */; };
+		57BCEFA124D770F700E567A0 /* TermsConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF7F24D770F700E567A0 /* TermsConditionsView.swift */; };
 		57C133B124D76C6900D60217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C133B024D76C6900D60217 /* AppDelegate.swift */; };
 		57C133B324D76C6900D60217 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C133B224D76C6900D60217 /* SceneDelegate.swift */; };
 		57C133B524D76C6900D60217 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C133B424D76C6900D60217 /* ContentView.swift */; };
@@ -19,6 +50,37 @@
 /* Begin PBXFileReference section */
 		398DDD794AD214E907D5A553 /* Pods-Lynk Up Git.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lynk Up Git.release.xcconfig"; path = "Target Support Files/Pods-Lynk Up Git/Pods-Lynk Up Git.release.xcconfig"; sourceTree = "<group>"; };
 		57307DD213D3A14304CC5F3C /* Pods-Lynk Up Git.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lynk Up Git.debug.xcconfig"; path = "Target Support Files/Pods-Lynk Up Git/Pods-Lynk Up Git.debug.xcconfig"; sourceTree = "<group>"; };
+		57BCEF5E24D770F300E567A0 /* profiledata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profiledata.swift; sourceTree = "<group>"; };
+		57BCEF5F24D770F400E567A0 /* AnnotationPlacementErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationPlacementErrorView.swift; sourceTree = "<group>"; };
+		57BCEF6024D770F400E567A0 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		57BCEF6124D770F400E567A0 /* CustomCallOutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCallOutView.swift; sourceTree = "<group>"; };
+		57BCEF6224D770F400E567A0 /* DataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		57BCEF6324D770F400E567A0 /* SlideOverCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOverCard.swift; sourceTree = "<group>"; };
+		57BCEF6424D770F400E567A0 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		57BCEF6524D770F400E567A0 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		57BCEF6624D770F400E567A0 /* Handle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
+		57BCEF6724D770F400E567A0 /* neon green starry sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "neon green starry sky.png"; sourceTree = "<group>"; };
+		57BCEF6824D770F400E567A0 /* CreateEventButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventButton.swift; sourceTree = "<group>"; };
+		57BCEF6924D770F500E567A0 /* MoreDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreDetailsView.swift; sourceTree = "<group>"; };
+		57BCEF6A24D770F500E567A0 /* atendeedata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = atendeedata.swift; sourceTree = "<group>"; };
+		57BCEF6B24D770F500E567A0 /* MailSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailSender.swift; sourceTree = "<group>"; };
+		57BCEF6C24D770F500E567A0 /* LicensesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicensesView.swift; sourceTree = "<group>"; };
+		57BCEF6D24D770F500E567A0 /* Geocoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geocoder.swift; sourceTree = "<group>"; };
+		57BCEF6E24D770F500E567A0 /* MyEventsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEventsButton.swift; sourceTree = "<group>"; };
+		57BCEF7024D770F500E567A0 /* MessageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageButton.swift; sourceTree = "<group>"; };
+		57BCEF7224D770F500E567A0 /* SearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		57BCEF7324D770F600E567A0 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		57BCEF7524D770F600E567A0 /* TimeSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSelectorView.swift; sourceTree = "<group>"; };
+		57BCEF7624D770F600E567A0 /* LogInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		57BCEF7724D770F600E567A0 /* EventsIAmAttendingBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsIAmAttendingBtn.swift; sourceTree = "<group>"; };
+		57BCEF7824D770F600E567A0 /* CenterToUserButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterToUserButton.swift; sourceTree = "<group>"; };
+		57BCEF7924D770F600E567A0 /* EventsUserCreatedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsUserCreatedView.swift; sourceTree = "<group>"; };
+		57BCEF7A24D770F600E567A0 /* eventdata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eventdata.swift; sourceTree = "<group>"; };
+		57BCEF7B24D770F600E567A0 /* EventsUserAttendingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsUserAttendingView.swift; sourceTree = "<group>"; };
+		57BCEF7C24D770F600E567A0 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		57BCEF7D24D770F600E567A0 /* SettingsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
+		57BCEF7E24D770F700E567A0 /* SettingsPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPageView.swift; sourceTree = "<group>"; };
+		57BCEF7F24D770F700E567A0 /* TermsConditionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsConditionsView.swift; sourceTree = "<group>"; };
 		57C133AD24D76C6900D60217 /* Lynk Up Git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lynk Up Git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C133B024D76C6900D60217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57C133B224D76C6900D60217 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,10 +127,41 @@
 			children = (
 				57C133B024D76C6900D60217 /* AppDelegate.swift */,
 				57C133B224D76C6900D60217 /* SceneDelegate.swift */,
+				57BCEF7824D770F600E567A0 /* CenterToUserButton.swift */,
 				57C133B424D76C6900D60217 /* ContentView.swift */,
 				57C133B624D76C6A00D60217 /* Assets.xcassets */,
 				57C133BB24D76C6A00D60217 /* LaunchScreen.storyboard */,
 				57C133BE24D76C6A00D60217 /* Info.plist */,
+				57BCEF5F24D770F400E567A0 /* AnnotationPlacementErrorView.swift */,
+				57BCEF6A24D770F500E567A0 /* atendeedata.swift */,
+				57BCEF6824D770F400E567A0 /* CreateEventButton.swift */,
+				57BCEF6124D770F400E567A0 /* CustomCallOutView.swift */,
+				57BCEF6224D770F400E567A0 /* DataFetcher.swift */,
+				57BCEF7A24D770F600E567A0 /* eventdata.swift */,
+				57BCEF7724D770F600E567A0 /* EventsIAmAttendingBtn.swift */,
+				57BCEF7B24D770F600E567A0 /* EventsUserAttendingView.swift */,
+				57BCEF7924D770F600E567A0 /* EventsUserCreatedView.swift */,
+				57BCEF6D24D770F500E567A0 /* Geocoder.swift */,
+				57BCEF6624D770F400E567A0 /* Handle.swift */,
+				57BCEF6C24D770F500E567A0 /* LicensesView.swift */,
+				57BCEF6424D770F400E567A0 /* LocationManager.swift */,
+				57BCEF7624D770F600E567A0 /* LogInView.swift */,
+				57BCEF6B24D770F500E567A0 /* MailSender.swift */,
+				57BCEF6524D770F400E567A0 /* MapView.swift */,
+				57BCEF6924D770F500E567A0 /* MoreDetailsView.swift */,
+				57BCEF7024D770F500E567A0 /* MessageButton.swift */,
+				57BCEF6E24D770F500E567A0 /* MyEventsButton.swift */,
+				57BCEF6724D770F400E567A0 /* neon green starry sky.png */,
+				57BCEF6024D770F400E567A0 /* PrivacyPolicyView.swift */,
+				57BCEF5E24D770F300E567A0 /* profiledata.swift */,
+				57BCEF7C24D770F600E567A0 /* SearchBar.swift */,
+				57BCEF7224D770F500E567A0 /* SearchResults.swift */,
+				57BCEF7D24D770F600E567A0 /* SettingsButton.swift */,
+				57BCEF7E24D770F700E567A0 /* SettingsPageView.swift */,
+				57BCEF7324D770F600E567A0 /* SignUpView.swift */,
+				57BCEF6324D770F400E567A0 /* SlideOverCard.swift */,
+				57BCEF7F24D770F700E567A0 /* TermsConditionsView.swift */,
+				57BCEF7524D770F600E567A0 /* TimeSelectorView.swift */,
 				57C133B824D76C6A00D60217 /* Preview Content */,
 			);
 			path = "Lynk Up Git";
@@ -88,7 +181,6 @@
 				57307DD213D3A14304CC5F3C /* Pods-Lynk Up Git.debug.xcconfig */,
 				398DDD794AD214E907D5A553 /* Pods-Lynk Up Git.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -161,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C133BD24D76C6A00D60217 /* LaunchScreen.storyboard in Resources */,
+				57BCEF8924D770F700E567A0 /* neon green starry sky.png in Resources */,
 				57C133BA24D76C6A00D60217 /* Preview Assets.xcassets in Resources */,
 				57C133B724D76C6A00D60217 /* Assets.xcassets in Resources */,
 			);
@@ -216,8 +309,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C133B124D76C6900D60217 /* AppDelegate.swift in Sources */,
+				57BCEF8124D770F700E567A0 /* AnnotationPlacementErrorView.swift in Sources */,
+				57BCEF9024D770F700E567A0 /* MyEventsButton.swift in Sources */,
+				57BCEF9524D770F700E567A0 /* SignUpView.swift in Sources */,
+				57BCEF9D24D770F700E567A0 /* EventsUserAttendingView.swift in Sources */,
+				57BCEF9A24D770F700E567A0 /* CenterToUserButton.swift in Sources */,
+				57BCEF8C24D770F700E567A0 /* atendeedata.swift in Sources */,
+				57BCEF9F24D770F700E567A0 /* SettingsButton.swift in Sources */,
+				57BCEF9B24D770F700E567A0 /* EventsUserCreatedView.swift in Sources */,
+				57BCEF8624D770F700E567A0 /* LocationManager.swift in Sources */,
+				57BCEF8724D770F700E567A0 /* MapView.swift in Sources */,
+				57BCEF8B24D770F700E567A0 /* MoreDetailsView.swift in Sources */,
+				57BCEF8324D770F700E567A0 /* CustomCallOutView.swift in Sources */,
+				57BCEF9424D770F700E567A0 /* SearchResults.swift in Sources */,
+				57BCEFA124D770F700E567A0 /* TermsConditionsView.swift in Sources */,
+				57BCEF8F24D770F700E567A0 /* Geocoder.swift in Sources */,
 				57C133B324D76C6900D60217 /* SceneDelegate.swift in Sources */,
+				57BCEF8224D770F700E567A0 /* PrivacyPolicyView.swift in Sources */,
 				57C133B524D76C6900D60217 /* ContentView.swift in Sources */,
+				57BCEF8024D770F700E567A0 /* profiledata.swift in Sources */,
+				57BCEF9E24D770F700E567A0 /* SearchBar.swift in Sources */,
+				57BCEF8424D770F700E567A0 /* DataFetcher.swift in Sources */,
+				57BCEF9C24D770F700E567A0 /* eventdata.swift in Sources */,
+				57BCEFA024D770F700E567A0 /* SettingsPageView.swift in Sources */,
+				57BCEF9724D770F700E567A0 /* TimeSelectorView.swift in Sources */,
+				57BCEF8524D770F700E567A0 /* SlideOverCard.swift in Sources */,
+				57BCEF8824D770F700E567A0 /* Handle.swift in Sources */,
+				57BCEF9224D770F700E567A0 /* MessageButton.swift in Sources */,
+				57BCEF8A24D770F700E567A0 /* CreateEventButton.swift in Sources */,
+				57BCEF9924D770F700E567A0 /* EventsIAmAttendingBtn.swift in Sources */,
+				57BCEF9824D770F700E567A0 /* LogInView.swift in Sources */,
+				57BCEF8E24D770F700E567A0 /* LicensesView.swift in Sources */,
+				57BCEF8D24D770F700E567A0 /* MailSender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

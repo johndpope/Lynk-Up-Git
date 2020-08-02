@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C133B124D76C6900D60217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C133B024D76C6900D60217 /* AppDelegate.swift */; };
+		57C133B324D76C6900D60217 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C133B224D76C6900D60217 /* SceneDelegate.swift */; };
+		57C133B524D76C6900D60217 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C133B424D76C6900D60217 /* ContentView.swift */; };
+		57C133B724D76C6A00D60217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C133B624D76C6A00D60217 /* Assets.xcassets */; };
+		57C133BA24D76C6A00D60217 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C133B924D76C6A00D60217 /* Preview Assets.xcassets */; };
+		57C133BD24D76C6A00D60217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C133BB24D76C6A00D60217 /* LaunchScreen.storyboard */; };
+		5F0136A73924EF1FE28FDD8B /* Pods_Lynk_Up_Git.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DFF8C319390FAE162BB959 /* Pods_Lynk_Up_Git.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		398DDD794AD214E907D5A553 /* Pods-Lynk Up Git.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lynk Up Git.release.xcconfig"; path = "Target Support Files/Pods-Lynk Up Git/Pods-Lynk Up Git.release.xcconfig"; sourceTree = "<group>"; };
+		57307DD213D3A14304CC5F3C /* Pods-Lynk Up Git.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lynk Up Git.debug.xcconfig"; path = "Target Support Files/Pods-Lynk Up Git/Pods-Lynk Up Git.debug.xcconfig"; sourceTree = "<group>"; };
+		57C133AD24D76C6900D60217 /* Lynk Up Git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lynk Up Git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C133B024D76C6900D60217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57C133B224D76C6900D60217 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57C133B424D76C6900D60217 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57C133B624D76C6A00D60217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57C133B924D76C6A00D60217 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57C133BC24D76C6A00D60217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57C133BE24D76C6A00D60217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DFF8C319390FAE162BB959 /* Pods_Lynk_Up_Git.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lynk_Up_Git.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57C133AA24D76C6900D60217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F0136A73924EF1FE28FDD8B /* Pods_Lynk_Up_Git.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57C133A424D76C6900D60217 = {
+			isa = PBXGroup;
+			children = (
+				57C133AF24D76C6900D60217 /* Lynk Up Git */,
+				57C133AE24D76C6900D60217 /* Products */,
+				75CD1D749EA6FF367E5182FE /* Pods */,
+				AD2D77CA7A495F6845971CBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57C133AE24D76C6900D60217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C133AD24D76C6900D60217 /* Lynk Up Git.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C133AF24D76C6900D60217 /* Lynk Up Git */ = {
+			isa = PBXGroup;
+			children = (
+				57C133B024D76C6900D60217 /* AppDelegate.swift */,
+				57C133B224D76C6900D60217 /* SceneDelegate.swift */,
+				57C133B424D76C6900D60217 /* ContentView.swift */,
+				57C133B624D76C6A00D60217 /* Assets.xcassets */,
+				57C133BB24D76C6A00D60217 /* LaunchScreen.storyboard */,
+				57C133BE24D76C6A00D60217 /* Info.plist */,
+				57C133B824D76C6A00D60217 /* Preview Content */,
+			);
+			path = "Lynk Up Git";
+			sourceTree = "<group>";
+		};
+		57C133B824D76C6A00D60217 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57C133B924D76C6A00D60217 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75CD1D749EA6FF367E5182FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57307DD213D3A14304CC5F3C /* Pods-Lynk Up Git.debug.xcconfig */,
+				398DDD794AD214E907D5A553 /* Pods-Lynk Up Git.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD2D77CA7A495F6845971CBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1DFF8C319390FAE162BB959 /* Pods_Lynk_Up_Git.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C133AC24D76C6900D60217 /* Lynk Up Git */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C133C124D76C6A00D60217 /* Build configuration list for PBXNativeTarget "Lynk Up Git" */;
+			buildPhases = (
+				CD818C2BC5F5523CB17CE27D /* [CP] Check Pods Manifest.lock */,
+				57C133A924D76C6900D60217 /* Sources */,
+				57C133AA24D76C6900D60217 /* Frameworks */,
+				57C133AB24D76C6900D60217 /* Resources */,
+				CEBD8C3164D7339977F14D21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lynk Up Git";
+			productName = "Lynk Up Git";
+			productReference = 57C133AD24D76C6900D60217 /* Lynk Up Git.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C133A524D76C6900D60217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Thomas D'Alessandro";
+				TargetAttributes = {
+					57C133AC24D76C6900D60217 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 57C133A824D76C6900D60217 /* Build configuration list for PBXProject "Lynk Up Git" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57C133A424D76C6900D60217;
+			productRefGroup = 57C133AE24D76C6900D60217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C133AC24D76C6900D60217 /* Lynk Up Git */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C133AB24D76C6900D60217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C133BD24D76C6A00D60217 /* LaunchScreen.storyboard in Resources */,
+				57C133BA24D76C6A00D60217 /* Preview Assets.xcassets in Resources */,
+				57C133B724D76C6A00D60217 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD818C2BC5F5523CB17CE27D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lynk Up Git-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBD8C3164D7339977F14D21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lynk Up Git/Pods-Lynk Up Git-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lynk Up Git/Pods-Lynk Up Git-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lynk Up Git/Pods-Lynk Up Git-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C133A924D76C6900D60217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C133B124D76C6900D60217 /* AppDelegate.swift in Sources */,
+				57C133B324D76C6900D60217 /* SceneDelegate.swift in Sources */,
+				57C133B524D76C6900D60217 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57C133BB24D76C6A00D60217 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C133BC24D76C6A00D60217 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57C133BF24D76C6A00D60217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57C133C024D76C6A00D60217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57C133C224D76C6A00D60217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57307DD213D3A14304CC5F3C /* Pods-Lynk Up Git.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lynk Up Git/Preview Content\"";
+				DEVELOPMENT_TEAM = SJLM487UDY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lynk Up Git/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lynk-Up.Lynk-Up-Git";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57C133C324D76C6A00D60217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398DDD794AD214E907D5A553 /* Pods-Lynk Up Git.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lynk Up Git/Preview Content\"";
+				DEVELOPMENT_TEAM = SJLM487UDY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Lynk Up Git/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lynk-Up.Lynk-Up-Git";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C133A824D76C6900D60217 /* Build configuration list for PBXProject "Lynk Up Git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C133BF24D76C6A00D60217 /* Debug */,
+				57C133C024D76C6A00D60217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C133C124D76C6A00D60217 /* Build configuration list for PBXNativeTarget "Lynk Up Git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C133C224D76C6A00D60217 /* Debug */,
+				57C133C324D76C6A00D60217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57C133A524D76C6900D60217 /* Project object */;
+}

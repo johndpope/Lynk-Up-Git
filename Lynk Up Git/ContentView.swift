@@ -66,6 +66,8 @@ struct ContentView: View {
     @State private var needsAccount: Bool = false
     @State private var events: [eventdata] = []
     @State private var centerToUser: () -> () = { }
+    @State private var eventDescription: String = ""
+    @State private var showCreateEventResults: Bool = false
     
     var body: some View {
         
@@ -224,12 +226,12 @@ struct ContentView: View {
                         SearchBar(annotation: self.annotationsVM, VModel: self.VModel, searchedText: self.$searchedText, showResults: self.$showResults, showMoreDetails: self.$showMoreDetails, position: self.$position, mapStyle: MGLStyle.outdoorsStyleURL)
                         
                         if (self.showResults == true && self.searchedText.count >= 1) {
-                            SearchResults(VModel: self.VModel, annotation: self.annotationsVM, showResults: self.$showResults, searchedText: self.$searchedText, mapStyle: MGLStyle.outdoorsStyleURL)
+                            SearchResults(VModel: self.VModel, annotation: self.annotationsVM, showResults: self.$showResults, searchedText: self.$searchedText, position: self.$position, mapStyle: MGLStyle.outdoorsStyleURL)
                         }
                         
                         
                         HStack{
-                            CreateEventButton(annotation: self.annotationsVM, annotationSelected: self.$annotationSelected, token: self.$authToken)
+                            CreateEventButton(VModel: self.VModel, annotation: self.annotationsVM, annotationSelected: self.$annotationSelected, token: self.$authToken, eventDescription: self.$eventDescription, showCreateEventResults: self.$showCreateEventResults, mapStyle: MGLStyle.outdoorsStyleURL)
                             .padding(.leading, 15)
                             MyEventsButton(isPresentedMyEvents: self.$isPresentedMyEvents, token: self.$authToken, data: self.data)
                             Spacer()
@@ -244,11 +246,11 @@ struct ContentView: View {
                     VStack {
                         SearchBar(annotation: self.annotationsVM, VModel: self.VModel, searchedText: self.$searchedText, showResults: self.$showResults, showMoreDetails: self.$showMoreDetails, position: self.$position, mapStyle: MGLStyle.darkStyleURL)
                         if self.showResults == true && self.searchedText.count >= 1 {
-                            SearchResults(VModel: self.VModel, annotation: self.annotationsVM, showResults: self.$showResults, searchedText: self.$searchedText, mapStyle: MGLStyle.darkStyleURL)
+                            SearchResults(VModel: self.VModel, annotation: self.annotationsVM, showResults: self.$showResults, searchedText: self.$searchedText, position: self.$position, mapStyle: MGLStyle.darkStyleURL)
                         }
                         
                         HStack{
-                            CreateEventButton(annotation: self.annotationsVM, annotationSelected: self.$annotationSelected, token: self.$authToken)
+                            CreateEventButton(VModel: self.VModel, annotation: self.annotationsVM, annotationSelected: self.$annotationSelected, token: self.$authToken, eventDescription: self.$eventDescription, showCreateEventResults: self.$showCreateEventResults, mapStyle: MGLStyle.darkStyleURL)
                             .padding(.leading, 15)
                             MyEventsButton(isPresentedMyEvents: self.$isPresentedMyEvents, token: self.$authToken, data: self.data)
                             Spacer()
@@ -264,11 +266,11 @@ struct ContentView: View {
                         SearchBar(annotation: self.annotationsVM, VModel: self.VModel, searchedText: self.$searchedText, showResults: self.$showResults, showMoreDetails: self.$showMoreDetails, position: self.$position, mapStyle: MGLStyle.outdoorsStyleURL)
                         
                         if (self.showResults == true && self.searchedText.count >= 1) {
-                            SearchResults(VModel: self.VModel, annotation: self.annotationsVM, showResults: self.$showResults, searchedText: self.$searchedText, mapStyle: MGLStyle.outdoorsStyleURL)
+                            SearchResults(VModel: self.VModel, annotation: self.annotationsVM, showResults: self.$showResults, searchedText: self.$searchedText, position: self.$position, mapStyle: MGLStyle.outdoorsStyleURL)
                         }
                         
                         HStack{
-                            CreateEventButton(annotation: self.annotationsVM, annotationSelected: self.$annotationSelected, token: self.$authToken)
+                            CreateEventButton(VModel: self.VModel, annotation: self.annotationsVM, annotationSelected: self.$annotationSelected, token: self.$authToken, eventDescription: self.$eventDescription, showCreateEventResults: self.$showCreateEventResults, mapStyle: MGLStyle.outdoorsStyleURL)
                             .padding(.leading, 15)
                             MyEventsButton(isPresentedMyEvents: self.$isPresentedMyEvents, token: self.$authToken, data: self.data)
                             Spacer()
@@ -282,11 +284,11 @@ struct ContentView: View {
                     VStack {
                         SearchBar(annotation: self.annotationsVM, VModel: self.VModel, searchedText: self.$searchedText, showResults: self.$showResults, showMoreDetails: self.$showMoreDetails, position: self.$position, mapStyle: MGLStyle.darkStyleURL)
                         if self.showResults == true && self.searchedText.count >= 1 {
-                            SearchResults(VModel: self.VModel, annotation: self.annotationsVM, showResults: self.$showResults, searchedText: self.$searchedText, mapStyle: MGLStyle.darkStyleURL)
+                            SearchResults(VModel: self.VModel, annotation: self.annotationsVM, showResults: self.$showResults, searchedText: self.$searchedText, position: self.$position, mapStyle: MGLStyle.darkStyleURL)
                         }
                         
                         HStack{
-                            CreateEventButton(annotation: self.annotationsVM, annotationSelected: self.$annotationSelected, token: self.$authToken)
+                            CreateEventButton(VModel: self.VModel, annotation: self.annotationsVM, annotationSelected: self.$annotationSelected, token: self.$authToken, eventDescription: self.$eventDescription, showCreateEventResults: self.$showCreateEventResults, mapStyle: MGLStyle.darkStyleURL)
                                 .padding(.leading, 15)
                             MyEventsButton(isPresentedMyEvents: self.$isPresentedMyEvents, token: self.$authToken, data: self.data)
                             Spacer()

@@ -21,10 +21,12 @@ struct MyEventsButton: View {
             self.isPresentedMyEvents.toggle() //trigger modal presentation
         }, label: {
             Text("My Events")
+            .font(.system(size: 18))
+            .foregroundColor(Color.white)
+            .shadow(radius: 8)
         }).padding(EdgeInsets(top: 8, leading: 6, bottom: 8, trailing: 6))
-            .foregroundColor(.secondary)
-            .background(Color(.secondarySystemBackground))
-            .cornerRadius(50.0)
+        .background(Color.purple)
+        .cornerRadius(10)
             .sheet(isPresented: $isPresentedMyEvents, content:{
                 VStack{
                     NavigationView {

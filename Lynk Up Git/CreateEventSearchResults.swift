@@ -1,36 +1,35 @@
 //
-//  SearchResults.swift
-//  Meep
+//  CreateEventSearchResults.swift
+//  Lynk Up Git
 //
-//  Created by Katia K Brinsmade on 5/24/20.
-//  Copyright © 2020 Katia K Brinsmade. All rights reserved.
+//  Created by Nick Brinsmade on 8/2/20.
+//  Copyright © 2020 Thomas D'Alessandro. All rights reserved.
 //
+
 import Foundation
 import SwiftUI
 import MapboxGeocoder
 import Mapbox
 
-struct SearchResults: View {
+struct CreateEventSearchResults: View {
     
     @ObservedObject var VModel: ViewModel
     var annotation: AnnotationsVM
-    @Binding var showResults: Bool
-    @Binding var searchedText: String
-    @Binding var position: CardPosition
+    @Binding var showCreateEventResults: Bool
+    @Binding var eventDescription: String
     var mapStyle: URL
     
-    init(VModel: ViewModel, annotation: AnnotationsVM, showResults: Binding<Bool>, searchedText: Binding<String>, position: Binding<CardPosition>, mapStyle: URL) {
+    init(VModel: ViewModel, annotation: AnnotationsVM, showCreateEventResults: Binding<Bool>, eventDescription: Binding<String>, mapStyle: URL) {
         self.VModel = VModel
         self.annotation = annotation
-        _showResults = showResults
-        _searchedText = searchedText
-        _position = position
+        _showCreateEventResults = showCreateEventResults
+        _eventDescription = eventDescription
         self.mapStyle = mapStyle
         if self.mapStyle == MGLStyle.darkStyleURL {
             UITableView.appearance().backgroundColor = .systemGray
             UITableViewCell.appearance().backgroundColor = .clear
         } else {
-            UITableView.appearance().backgroundColor = .white
+            UITableView.appearance().backgroundColor = UIColor.init(displayP3Red: 0.9, green: 0.9, blue: 0.9, alpha: 1)
             UITableViewCell.appearance().backgroundColor = .clear
         }
     }
@@ -40,31 +39,28 @@ struct SearchResults: View {
             if self.mapStyle == MGLStyle.darkStyleURL {
                 ForEach(self.VModel.searchResults, id: \.self) { result in
                     Button(action: {
-                        self.annotation.addNextAnnotation(address: self.rowText(result: result).label)
-                        self.showResults = false
-                        self.searchedText = self.rowText(result: result).label
-                        self.position = CardPosition.bottom(UIScreen.main.bounds.height - 77.5)
+                        self.showCreateEventResults = false
+                        self.eventDescription = self.rowText(result: result).label
                     }, label: {
                         self.rowText(result: result).view.font(.system(size: 13))
                         
-                    }).listRowBackground(Color.gray)
+                    }).listRowBackground(Color.black)
+                        .foregroundColor(Color.white)
                 }
             } else {
                 ForEach(self.VModel.searchResults, id: \.self) { result in
                     Button(action: {
-                        self.annotation.addNextAnnotation(address: self.rowText(result: result).label)
-                        self.showResults = false
-                        self.searchedText = self.rowText(result: result).label
-                        self.position = CardPosition.bottom(UIScreen.main.bounds.height - 77.5)
+                        self.showCreateEventResults = false
+                        self.eventDescription = self.rowText(result: result).label
                     }, label: {
                         self.rowText(result: result).view.font(.system(size: 13))
                         
-                    })
+                    }).background(Color.init(red: 0.9, green: 0.9, blue: 0.9))
                 }
             }
-        }.padding(.trailing, 15)
+        }
             //.frame(height: 222)
-            .frame(height: 450)
+            .frame(height: 445)
     }
     
     
@@ -221,3 +217,4 @@ struct SearchResults: View {
         }
     }
 }
+

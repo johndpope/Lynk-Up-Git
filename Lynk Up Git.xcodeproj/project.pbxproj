@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B41B40524D7A760002A1F69 /* CreateEventSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B41B40424D7A760002A1F69 /* CreateEventSearchResults.swift */; };
+		0BF54D8024D7A53700029584 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF54D7F24D7A53600029584 /* KeyboardResponder.swift */; };
 		57BCEF8024D770F700E567A0 /* profiledata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF5E24D770F300E567A0 /* profiledata.swift */; };
 		57BCEF8124D770F700E567A0 /* AnnotationPlacementErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF5F24D770F400E567A0 /* AnnotationPlacementErrorView.swift */; };
 		57BCEF8224D770F700E567A0 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCEF6024D770F400E567A0 /* PrivacyPolicyView.swift */; };
@@ -48,6 +50,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B41B40424D7A760002A1F69 /* CreateEventSearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventSearchResults.swift; sourceTree = "<group>"; };
+		0BF54D7F24D7A53600029584 /* KeyboardResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 		398DDD794AD214E907D5A553 /* Pods-Lynk Up Git.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lynk Up Git.release.xcconfig"; path = "Target Support Files/Pods-Lynk Up Git/Pods-Lynk Up Git.release.xcconfig"; sourceTree = "<group>"; };
 		57307DD213D3A14304CC5F3C /* Pods-Lynk Up Git.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lynk Up Git.debug.xcconfig"; path = "Target Support Files/Pods-Lynk Up Git/Pods-Lynk Up Git.debug.xcconfig"; sourceTree = "<group>"; };
 		57BCEF5E24D770F300E567A0 /* profiledata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profiledata.swift; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 		57C133AF24D76C6900D60217 /* Lynk Up Git */ = {
 			isa = PBXGroup;
 			children = (
+				0BF54D7F24D7A53600029584 /* KeyboardResponder.swift */,
 				57C133B024D76C6900D60217 /* AppDelegate.swift */,
 				57C133B224D76C6900D60217 /* SceneDelegate.swift */,
 				57BCEF7824D770F600E567A0 /* CenterToUserButton.swift */,
@@ -163,6 +168,7 @@
 				57BCEF7F24D770F700E567A0 /* TermsConditionsView.swift */,
 				57BCEF7524D770F600E567A0 /* TimeSelectorView.swift */,
 				57C133B824D76C6A00D60217 /* Preview Content */,
+				0B41B40424D7A760002A1F69 /* CreateEventSearchResults.swift */,
 			);
 			path = "Lynk Up Git";
 			sourceTree = "<group>";
@@ -309,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C133B124D76C6900D60217 /* AppDelegate.swift in Sources */,
+				0BF54D8024D7A53700029584 /* KeyboardResponder.swift in Sources */,
 				57BCEF8124D770F700E567A0 /* AnnotationPlacementErrorView.swift in Sources */,
 				57BCEF9024D770F700E567A0 /* MyEventsButton.swift in Sources */,
 				57BCEF9524D770F700E567A0 /* SignUpView.swift in Sources */,
@@ -333,6 +340,7 @@
 				57BCEF9C24D770F700E567A0 /* eventdata.swift in Sources */,
 				57BCEFA024D770F700E567A0 /* SettingsPageView.swift in Sources */,
 				57BCEF9724D770F700E567A0 /* TimeSelectorView.swift in Sources */,
+				0B41B40524D7A760002A1F69 /* CreateEventSearchResults.swift in Sources */,
 				57BCEF8524D770F700E567A0 /* SlideOverCard.swift in Sources */,
 				57BCEF8824D770F700E567A0 /* Handle.swift in Sources */,
 				57BCEF9224D770F700E567A0 /* MessageButton.swift in Sources */,

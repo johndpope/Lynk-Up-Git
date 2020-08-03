@@ -3,6 +3,7 @@ import Foundation
 import SwiftUI
 import Mapbox
 struct SlideOverCard<Content: View> : View {
+    @ObservedObject var keyboardResponder = KeyboardResponder()
     @GestureState private var dragState = DragState.inactive
     @Binding var position: CardPosition
     var mapStyle: URL
@@ -22,7 +23,19 @@ struct SlideOverCard<Content: View> : View {
             .background(Color.init(red: 15/255, green: 15/255, blue: 15/255))
             .cornerRadius(10.0)
             .shadow(color: Color(.sRGBLinear, white: 0, opacity: 0.13), radius: 10.0)
-            .offset(y: self.position.offset + self.dragState.translation.height)
+            .offset(y: self.position.offset + self.dragState.translation.height - keyboardResponder.currentHeight)
+            .animation(self.dragState.isDragging ? nil : .interpolatingSpring(stiffness: 300.0, damping: 30.0, initialVelocity: 10.0))
+            .gesture(drag)
+        } else if self.position == CardPosition.bottom(UIScreen.main.bounds.height - 77.5) || self.position == CardPosition.middle(UIScreen.main.bounds.height - 250) {
+            return VStack (spacing: 0) {
+                Handle(mapStyle: self.mapStyle)
+                self.content()
+            }
+            .frame(height: UIScreen.main.bounds.height)
+            .background(Color.white)
+            .cornerRadius(10.0)
+            .shadow(color: Color(.sRGBLinear, white: 0, opacity: 0.13), radius: 10.0)
+            .offset(y: self.position.offset + self.dragState.translation.height - keyboardResponder.currentHeight)
             .animation(self.dragState.isDragging ? nil : .interpolatingSpring(stiffness: 300.0, damping: 30.0, initialVelocity: 10.0))
             .gesture(drag)
         } else {
@@ -74,7 +87,7 @@ enum RelativeCardPosition {
     case bottom
 }
  
-struct CardPosition {
+struct CardPosition: Equatable {
     let relativeCardPosition: RelativeCardPosition
     let offset: CGFloat
     
